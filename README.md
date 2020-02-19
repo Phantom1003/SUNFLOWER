@@ -1,6 +1,12 @@
 Sunflower Tools
 =================================================================================
-Sunflower is a project for 12th National College Student Information Security Contest.
+### Members:
+   @ Great-Keith
+   @ RainRain1218
+   @ Phantom1003
+
+
+Sunflower is a project for 12th National College Student Information Security Contest, China.
 Our design provide a hardware machine to protect our secret data and code from the untrust operating system. 
 Our project is based on riscv-tools, so you can use the script provided by UCB to build our project:
 ```bash
