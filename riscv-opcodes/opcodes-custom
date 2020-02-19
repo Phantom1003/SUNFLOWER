@@ -1,0 +1,29 @@
+# custom 0
+lbct    rd rs1  etag imm10 14..12=0 6..2=0x02 1..0=3
+lhct    rd rs1  etag imm10 14..12=1 6..2=0x02 1..0=3
+lwct    rd rs1  etag imm10 14..12=2 6..2=0x02 1..0=3
+ldct    rd rs1  etag imm10 14..12=3 6..2=0x02 1..0=3
+lbuct   rd rs1  etag imm10 14..12=4 6..2=0x02 1..0=3
+lhuct   rd rs1  etag imm10 14..12=5 6..2=0x02 1..0=3
+lwuct   rd rs1  etag imm10 14..12=6 6..2=0x02 1..0=3
+ltt     rd rs1  etag imm10 14..12=7 6..2=0x02 1..0=3
+
+# custom 1
+sbct   etag ntag imm8hi rs1 rs2 imm8lo 14..12=0 6..2=0x0A 1..0=3
+shct   etag ntag imm8hi rs1 rs2 imm8lo 14..12=1 6..2=0x0A 1..0=3
+swct   etag ntag imm8hi rs1 rs2 imm8lo 14..12=2 6..2=0x0A 1..0=3
+sdct   etag ntag imm8hi rs1 rs2 imm8lo 14..12=3 6..2=0x0A 1..0=3
+
+@custom2            rd rs1 imm12 14..12=0 6..2=0x16 1..0=3
+@custom2.rs1        rd rs1 imm12 14..12=2 6..2=0x16 1..0=3
+@custom2.rs1.rs2    rd rs1 imm12 14..12=3 6..2=0x16 1..0=3
+@custom2.rd         rd rs1 imm12 14..12=4 6..2=0x16 1..0=3
+@custom2.rd.rs1     rd rs1 imm12 14..12=6 6..2=0x16 1..0=3
+@custom2.rd.rs1.rs2 rd rs1 imm12 14..12=7 6..2=0x16 1..0=3
+
+@custom3            rd rs1 imm12 14..12=0 6..2=0x1E 1..0=3
+@custom3.rs1        rd rs1 imm12 14..12=2 6..2=0x1E 1..0=3
+@custom3.rs1.rs2    rd rs1 imm12 14..12=3 6..2=0x1E 1..0=3
+@custom3.rd         rd rs1 imm12 14..12=4 6..2=0x1E 1..0=3
+@custom3.rd.rs1     rd rs1 imm12 14..12=6 6..2=0x1E 1..0=3
+@custom3.rd.rs1.rs2 rd rs1 imm12 14..12=7 6..2=0x1E 1..0=3
